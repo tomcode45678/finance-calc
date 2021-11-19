@@ -15,7 +15,7 @@ use crate::prompts::{
 };
 
 static COMMANDS_CHAR_GAP: usize = 12;
-static RECEIPT_LENGTH: usize = 20;
+static RECEIPT_LENGTH: usize = 26;
 
 fn get_char_gap (offset: &str, gap: usize) -> String {
     let total_spaces = gap - offset.chars().count();
